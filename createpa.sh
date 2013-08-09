@@ -49,6 +49,7 @@ cat > $NOMBREA/manifest.webapp << EOF
 		"64": "/img/icon64.png",
 		"128": "/img/icon128.png"
 	},
+	"installs_allowed_from": ["*"],
 	"default_locale": "en"
 }
 EOF
